@@ -9,22 +9,19 @@
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css'
     integrity='sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=='
     crossorigin='anonymous' />
-  <link href="https://fonts.googleapis.com/css?family=Teko:300,regular,500,600,700" rel="stylesheet" />
-  <link
-    href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
-    rel="stylesheet" />
   <title>Raja Zubair | Portfolio</title>
 
-  <meta name="description" content="Hi, I'm Raja Zubair, a passionate web designer and frontend developer from Pakistan. I'm a tech-entusiast and cricket-lover.">
+  <meta name="description"
+    content="Hi, I'm Raja Zubair, a passionate web designer and frontend developer from Pakistan. I'm a tech-entusiast and cricket-lover.">
 
 </head>
 
-<body class="bg-[#161513] font-[poppins] text-gray-200">
+<body class="bg-[#161513] font-mono text-gray-200">
 
   <header class="w-[90%] max-w-[1200px] mx-auto">
     <nav class=" text-white flex justify-between items-center p-4 ">
       <a href="/">
-        <img src="./public/svg's/icon.jpg" alt="" class="size-12 -rotate-6">
+        <img src="./public/svg's/icon.jpg" alt="" class="size-12 -rotate-6 shadow-black shadow-lg">
       </a>
       <ul class=" hidden text-gray-300 md:flex gap-5 ">
         <li class="hover:text-white  p-2 rounded-lg transition-all duration-200"><a href="#">Home</a></li>
@@ -34,9 +31,9 @@
 
       </ul>
 
-      <button
-        class="py-2 px-6 rounded-full hover:bg-gradient-to-r from-purple-400 via-pink-500 to-orange-400 transition-all duration-200 text-black hover:text-gray-200 bg-white">Contact
-        Me </button>
+      <a href="./"
+        class="py-2 px-6 shadow-[1px_3px_2px_#aaa] hover:translate-x-[1px] hover:translate-y-[3px] hover:shadow-none hover:rounded-sm hover:bg-gradient-to-r from-purple-400 via-pink-500 to-orange-400 transition-all duration-200 text-zinc-700 text-lg font-semibold font-mono hover:text-gray-200 bg-white">
+        <i class="fa fa-file-download mr-1"></i> Resumé</a>
 
     </nav>
   </header>
@@ -45,7 +42,7 @@
     <section class="w-[90%] max-w-[1200px] mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
 
       <div class="leading-6 space-y-6 w-full md:w-1/2">
-        <h1 class="text-5xl font-semibold leading-tight">
+        <h1 class="text-4xl xl:text-5xl font-semibold leading-tight text-balance">
           <span class="bg-gradient-to-r from-purple-400 via-pink-500 to-orange-400 bg-clip-text text-transparent">Hello,
             I am Zubair</span>
           <div class="">
@@ -54,52 +51,46 @@
           </div>
         </h1>
 
-        <p>I create visually stunning and user-friendly designs that enhance brand identity and user engagement.</p>
-        <div class="space-x-5">
-          <button class="border py-2 px-6 rounded-full hover:text-black hover:bg-white transition-all duration-500">Get
-            in Touch</button>
-          <button class="border py-2 px-6 rounded-full hover:text-black hover:bg-white transition-all duration-500">View
-            all work</button>
+        <p class="text-lg">I create visually stunning and user-friendly designs that enhance brand identity and user
+          engagement.</p>
+        <div class="flex flex-wrap gap-5">
+          <a href="#contact"
+            class="border py-2 px-6 rounded-full hover:text-black hover:bg-white transition-all duration-500">Get
+            in Touch</a>
+          <a href="#projects"
+            class="border py-2 px-6 rounded-full hover:text-black hover:bg-white transition-all duration-500">View
+            all work</a>
         </div>
 
       </div>
 
       <div class="w-full md:w-1/2 flex justify-center items-center">
-        <img src="./public/Image/raja.jpg" alt="" class="rounded-xl w-2/3">
+        <img src="./public/Image/raja.jpg" alt="" class="shadow-[#555] shadow-md rounded-sm w-2/3">
       </div>
     </section>
 
 
 
-    <section class="bg-[#1c1c22] min-h-screen py-12">
+    <section class="bg-[#1c1c22] py-12">
       <div class="w-[90%] max-w-[1200px] mx-auto">
         <div class="flex justify-between items-center">
-          <h1 class="text-5xl font-semibold leading-tight">
+          <h1 class="text-4xl lg:text-5xl font-semibold leading-tight text-balance">
             <span
               class="bg-gradient-to-r from-purple-400 via-pink-500 to-orange-400 bg-clip-text text-transparent">Design
               that solves problems,</span>
-            <div class="">
+            <div class="text-4xl lg:text-5xl">
               One Product at a <span
-                class="block bg-gradient-to-r from-purple-400 via-pink-500 to-orange-400 bg-clip-text text-transparent">Time</span>
+                class="block  bg-gradient-to-r from-purple-400 via-pink-500 to-orange-400 bg-clip-text text-transparent">Time</span>
             </div>
           </h1>
 
-
-          <div class="space-x-5">
-            <button
-              class="border py-2 px-6 rounded-full hover:text-black hover:bg-white transition-all duration-500">Get
-              in Touch</button>
-            <button
-              class="border py-2 px-6 rounded-full hover:text-black hover:bg-white transition-all duration-500">View
-              all work</button>
-          </div>
         </div>
 
         <div class="w-full h-1 bg-gradient-to-r from-purple-600 to-red-700 rounded-lg mt-8"></div>
         <div
-          class="flex justify-between items-center py-6 px-4 bg-transparent hover:bg-gradient-to-r from-purple-600 to-red-700 transition-colors duration-200 group cursor-pointer">
+          class="flex justify-between items-center py-6 px-4 bg-transparent hover:bg-gradient-to-r from-purple-600 to-red-700 transition-colors duration-200 group cursor-pointer  text-4xl lg:text-5xl ">
           <div class="">
-            <h2 class="text-5xl font-semibold leading-tight">
+            <h2 class="font-semibold leading-tight">
               <span class="text-white">UI/UX <span
                   class="bg-gradient-to-r from-purple-400 via-pink-500 to-orange-400 bg-clip-text text-transparent group-hover:text-white">Design</span></span>
             </h2>
@@ -110,9 +101,9 @@
         </div>
         <div class="w-full h-1 bg-gradient-to-r from-purple-600 to-red-700 rounded-lg"></div>
         <div
-          class="flex justify-between items-center py-6 px-4 bg-transparent hover:bg-gradient-to-r from-purple-600 to-red-700 transition-colors duration-200 group cursor-pointer">
+          class="flex justify-between items-center py-6 px-4 bg-transparent hover:bg-gradient-to-r from-purple-600 to-red-700 transition-colors duration-200 group cursor-pointer text-4xl lg:text-5xl">
           <div class="">
-            <h2 class="text-5xl font-semibold leading-tight">
+            <h2 class="font-semibold leading-tight">
               <span class="text-white">Graphic <span
                   class="bg-gradient-to-r from-purple-400 via-pink-500 to-orange-400 bg-clip-text text-transparent group-hover:text-white">Design</span></span>
             </h2>
@@ -123,9 +114,9 @@
         </div>
         <div class="w-full h-1 bg-gradient-to-r from-purple-600 to-red-700 rounded-lg"></div>
         <div
-          class="flex justify-between items-center py-6 px-4 bg-transparent hover:bg-gradient-to-r from-purple-600 to-red-700 transition-colors duration-200 group cursor-pointer">
+          class="flex justify-between items-center py-6 px-4 bg-transparent hover:bg-gradient-to-r from-purple-600 to-red-700 transition-colors duration-200 group cursor-pointer text-4xl lg:text-5xl">
           <div class="">
-            <h2 class="text-5xl font-semibold leading-tight">
+            <h2 class="font-semibold leading-tight">
               <span class="text-white">Web <span
                   class="bg-gradient-to-r from-purple-400 via-pink-500 to-orange-400 bg-clip-text text-transparent group-hover:text-white">Design</span></span>
             </h2>
@@ -140,9 +131,9 @@
 
 
 
-    <section class="w-[90%] max-w-[1200px] mx-auto space-y-8">
+    <section class="w-[90%] max-w-[1200px] mx-auto space-y-8" id="projects">
 
-      <div class="text-5xl font-semibold leading-tight">
+      <div class=" text-4xl lg:text-5xl font-semibold leading-tight">
         <h2>Look at my </br> <span
             class="bg-gradient-to-r from-purple-400 via-pink-500 to-orange-400 bg-clip-text text-transparent ">Projects</span>
         </h2>
@@ -200,11 +191,11 @@
 
 
     <section class="w-[90%] max-w-[1200px] mx-auto space-y-10 pt-20">
-      <h2 class="text-5xl font-semibold leading-tight">What I <span
+      <h2 class=" text-4xl lg:text-5xl font-semibold leading-tight">What I <span
           class="bg-gradient-to-r from-purple-400 via-pink-500 to-orange-400 bg-clip-text text-transparent ">do</span>
       </h2>
 
-      <div class="flex items-center gap-5 flex-wrap ">
+      <div class="flex items-center gap-5 flex-wrap font-mono">
 
         <div class="bg-[#333] p-4 text-center rounded-lg space-y-4">
           <div>
@@ -280,12 +271,18 @@
 
     <section>
       <div class="w-[90%] max-w-[1200px] mx-auto space-y-10 py-24 md:w-1/2 ">
-        <h2 class="text-5xl font-semibold leading-tight">See the impact of good, conversion-oriented design on your
-          business <div
-            class="bg-gradient-to-r from-purple-400 via-pink-500 to-orange-400 bg-clip-text text-transparent underline mt-5">
-            Let's Work Together
-            <i class="fa-solid fa-up-right-from-square text-4xl cursor-pointer"></i>
-          </div>
+        <h2 class=" text-4xl lg:text-5xl font-mono font-semibold leading-tight">
+          <a href="#">
+
+            See the impact of good, conversion-oriented design on your
+            business <div
+              class="bg-gradient-to-r from-purple-400 via-pink-500 to-orange-400 bg-clip-text text-transparent mt-5 w-max">
+              Let's Work Together
+              <i class="fa-solid fa-up-right-from-square text-4xl cursor-pointer"></i>
+              <span
+                class="h-1 mt-[8px] w-full block bg-gradient-to-r from-purple-400 via-pink-500 to-orange-400 "></span>
+            </div>
+          </a>
 
         </h2>
     </section>
@@ -293,35 +290,29 @@
 
   </main>
 
-  
-  <footer class="w-[90%] max-w-[1200px] mx-auto space-y-10 py-10 border-t "/>
-  <h2 class="text-2xl font-semibold">Raja Zubair</h2> 
+
+  <footer class="w-[90%] max-w-[1200px] mx-auto space-y-10 py-10 border-t " />
+  <h2 class="text-3xl font-semibold">Raja Zubair</h2>
   <div class="flex justify-between">
     <p>
-      &copy; Created with &lt;/&gt; by Zubair. 
+      &copy; Created with &lt;/&gt; by Zubair.
     </p>
-    <div class="flex gap-4">
-      <a href="https://www.linkedin.com/in/raja-zubair-664066294/" class="text-[#0077b5] hover:shadow-lg shadow-current">
+    <div class="flex gap-6 text-2xl">
+      <a href="https://www.linkedin.com/in/raja-zubair-664066294/"
+        class="text-[#0077b5] hover:shadow-lg shadow-current">
         <i class="fab fa-linkedin-in"></i>
       </a>
-      <a href="https://www.instagram.com/raja_zubair_786?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" class="bg-gradient-to-br from-[#f9ce34] via-[#ee2a7b] to-[#6228d7] bg-clip-text text-transparent hover:shadow-lg shadow-current">
+      <a href="https://www.instagram.com/raja_zubair_786?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+        target="_blank"
+        class="bg-gradient-to-br from-[#f9ce34] via-[#ee2a7b] to-[#6228d7] bg-clip-text text-transparent hover:shadow-lg shadow-current">
         <i class="fab fa-instagram"></i>
       </a>
       <a href="https://github.com/RajaZubair573" target="_blank" class="shadow-zinc-900 hover:shadow-lg">
         <i class="fab fa-github"></i>
       </a>
       </i>
-  </div>
-    
-  </body>
-
-
-  
-  </footer>
-
-
-
-
+    </div>
+    </footer>
 </body>
 
 </html>
