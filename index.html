@@ -11,8 +11,10 @@
     crossorigin='anonymous' />
   <title>Raja Zubair | Portfolio</title>
 
-  <meta name="description" content="Hi, I'm Raja Zubair, a passionate web designer and frontend developer from Pakistan. I'm a tech-entusiast and cricket-lover.">
+  <meta name="description" content="Hi, I'm Raja Zubair, a passionate web designer and frontend developer from Pakistan. I'm a tech-enthusiast and cricket-lover.">
 
+  <!-- Three.js library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 </head>
 
 <body class="bg-[#161513] font-mono text-gray-200">
@@ -26,20 +28,17 @@
         <li class="hover:text-white  p-2 rounded-lg transition-all duration-200"><a href="#">Home</a></li>
         <li class="hover:text-white  p-2 rounded-lg transition-all duration-200"><a href="#">Contact</a></li>
         <li class="hover:text-white  p-2 rounded-lg transition-all duration-200"><a href="#">About</a></li>
-        <li class="hover:text-white  p-2 rounded-lg transition-all duration-200"><a href="#">Recent Work</a></li>
-
+        <li class="hover:text-white  p-2 rounded-lg transition-all duration-200"><a href="#projects">Recent Work</a></li>
       </ul>
-
       <a href="./"
         class="py-2 px-6 shadow-[1px_3px_2px_#aaa] hover:translate-x-[1px] hover:translate-y-[3px] hover:shadow-none hover:rounded-sm hover:bg-gradient-to-r from-purple-400 via-pink-500 to-orange-400 transition-all duration-200 text-zinc-700 text-lg font-semibold font-mono hover:text-gray-200 bg-white"> <i class="fa fa-file-download mr-1"></i> Resumé</a>
-
     </nav>
   </header>
 
   <main class="space-y-10 mt-10">
-    <section class="w-[90%] max-w-[1200px] mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
-
-      <div class="leading-6 space-y-6 w-full md:w-1/2">
+    <section class="w-[90%] max-w-[1200px] mx-auto flex flex-col md:flex-row justify-between items-center gap-8 relative">
+      <div id="particles-js" class="absolute inset-0 z-0"></div>
+      <div class="leading-6 space-y-6 w-full md:w-1/2 z-10">
         <h1 class="text-4xl xl:text-5xl font-semibold leading-tight text-balance">
           <span class="bg-gradient-to-r from-purple-400 via-pink-500 to-orange-400 bg-clip-text text-transparent">Hello,
             I am Zubair</span>
@@ -48,7 +47,6 @@
               class="block bg-gradient-to-r from-purple-400 via-pink-500 to-orange-400 bg-clip-text text-transparent">Islamabad</span>
           </div>
         </h1>
-
         <p class="">I create visually stunning and user-friendly designs that enhance brand identity and user engagement.</p>
         <div class="flex flex-wrap gap-5">
           <a href="#contact" class="border py-2 px-6 rounded-full hover:text-black hover:bg-white transition-all duration-500">Get
@@ -56,15 +54,11 @@
           <a href="#projects" class="border py-2 px-6 rounded-full hover:text-black hover:bg-white transition-all duration-500">View
             all work</a>
         </div>
-
       </div>
-
-      <div class="w-full md:w-1/2 flex justify-center items-center">
+      <div class="w-full md:w-1/2 flex justify-center items-center z-10">
         <img src="./public/Image/raja.jpg" alt="" class="shadow-[#555] shadow-md rounded-sm w-2/3">
       </div>
     </section>
-
-
 
     <section class="bg-[#1c1c22] py-12">
       <div class="w-[90%] max-w-[1200px] mx-auto">
@@ -78,9 +72,7 @@
                 class="block  bg-gradient-to-r from-purple-400 via-pink-500 to-orange-400 bg-clip-text text-transparent">Time</span>
             </div>
           </h1>
-
         </div>
-
         <div class="w-full h-1 bg-gradient-to-r from-purple-600 to-red-700 rounded-lg mt-8"></div>
         <div
           class="flex justify-between items-center py-6 px-4 bg-transparent hover:bg-gradient-to-r from-purple-600 to-red-700 transition-colors duration-200 group cursor-pointer  text-4xl lg:text-5xl ">
@@ -124,151 +116,112 @@
       </div>
     </section>
 
-
-
     <section class="w-[90%] max-w-[1200px] mx-auto space-y-8" id="projects">
-
       <div class=" text-4xl lg:text-5xl font-semibold leading-tight">
         <h2>Look at my </br> <span
             class="bg-gradient-to-r from-purple-400 via-pink-500 to-orange-400 bg-clip-text text-transparent ">Projects</span>
         </h2>
       </div>
-
       <div class="flex flex-wrap justify-center lg:justify-evenly *:w-full *:md:size-64 gap-10">
-
         <div class="rounded-xl bg-[#1c1c22] overflow-hidden">
           <div class="bg-gray-300">
             <img src="./public/Image/project1.jpeg" alt="" class="object-cover object-center w-full">
           </div>
-
           <div class=" py-5 px-3">
             <h3 class="text-xl">Walr Website</h3>
             <p class="text-sm text-gray-400">Landing Page</p>
           </div>
-
         </div>
         <div class="rounded-xl bg-[#1c1c22] overflow-hidden">
           <div class="bg-gray-300 ">
             <img src="./public/Image/project2.jpg" alt="" class="object-cover object-center w-full">
           </div>
-
           <div class=" py-5 px-3">
             <h3 class="text-xl">Free Lance Graphic Design</h3>
             <p class="text-sm text-gray-400">Landing Page</p>
           </div>
-
         </div>
         <div class="rounded-xl bg-[#1c1c22] overflow-hidden ">
           <div class="bg-gray-300 ">
             <img src="./public/Image/project3.jpg" alt="" class="object-cover object-center w-full">
           </div>
-
           <div class=" py-5 px-3">
             <h3 class="text-xl">Work Website </h3>
             <p class="text-sm text-gray-400">Landing Page</p>
           </div>
-
         </div>
         <div class="rounded-xl bg-[#1c1c22] overflow-hidden">
           <div class="bg-gray-300 ">
             <img src="./public/Image/project4.jpg" alt="" class="object-cover object-center w-full">
           </div>
-
           <div class=" py-5 px-3 ">
             <h3 class="text-xl">Good Form Design co.</h3>
             <p class="text-sm text-gray-400">Landing Page</p>
           </div>
-
         </div>
-
       </div>
     </section>
-
 
     <section class="w-[90%] max-w-[1200px] mx-auto space-y-10 pt-20">
       <h2 class=" text-4xl lg:text-5xl font-semibold leading-tight">What I <span
           class="bg-gradient-to-r from-purple-400 via-pink-500 to-orange-400 bg-clip-text text-transparent ">do</span>
       </h2>
-
       <div class="flex items-center gap-5 flex-wrap font-mono">
-
         <div class="bg-[#333] p-4 text-center rounded-lg space-y-4">
           <div>
             <img src="./public/svg's/figma-svgrepo-com.svg" alt="" class="size-24 " />
           </div>
-
           <h2>Figma</h2>
-
         </div>
-
         <div class="bg-[#333] p-4 text-center rounded-lg space-y-4">
           <div>
             <img src="./public/svg's/photoshop-cc-logo-svgrepo-com.svg" alt="" class="size-24 " />
           </div>
-
           <h2>Photoshop</h2>
-
         </div>
-
         <div class="bg-[#333] p-4 text-center rounded-lg space-y-4">
           <div>
             <img src="./public/svg's/illustrator-svgrepo-com.svg" alt="" class="size-24 " />
           </div>
-
           <h2>Illustrator</h2>
-
         </div>
-
         <div class="bg-[#333] p-4 text-center rounded-lg space-y-4">
           <div>
             <img src="./public/svg's/html-5-svgrepo-com.svg" alt="" class="size-24 " />
           </div>
-
           <h2>HTML</h2>
-
         </div>
-
         <div class="bg-[#333] p-4 text-center rounded-lg space-y-4">
           <div>
             <img src="./public/svg's/css-3-svgrepo-com.svg" alt="" class="size-24 " />
           </div>
-
           <h2>CSS</h2>
-
         </div>
         <div class="bg-[#333] p-4 text-center rounded-lg space-y-4 ">
           <div>
             <img src="./public/svg's/Tailwind_CSS_Logo.svg.png" alt="" class="size-24 object-contain" />
           </div>
-
           <h2>Tailwind CSS</h2>
-
         </div>
         <div class="bg-[#333] p-4 text-center rounded-lg space-y-4">
           <div>
             <img src="./public/svg's/adobe-lightroom-svgrepo-com.svg" alt="" class="size-24 " />
           </div>
-
           <h2>Lightroom</h2>
-
         </div>
         <div class="bg-[#333] p-4 text-center rounded-lg space-y-4">
           <div>
             <img src="./public/svg's/canva-icon.webp" alt="" class="size-24 " />
           </div>
-
           <h2>Canva</h2>
-
         </div>
       </div>
     </section>
-
 
     <section>
       <div class="w-[90%] max-w-[1200px] mx-auto space-y-10 py-24 md:w-2/3 ">
         <h2 class=" text-3xl lg:text-5xl font-mono font-semibold leading-tight text-center md:text-left">
           <a href="#">
-
             See the impact of good, conversion-oriented design on your
             business <div
             class="bg-gradient-to-r from-purple-400 via-pink-500 to-orange-400 text-balance bg-clip-text text-transparent mt-5 w-fit mx-auto md:mx-0">
@@ -277,34 +230,31 @@
             <span class="h-1 mt-[8px] w-full block bg-gradient-to-r from-purple-400 via-pink-500 to-orange-400 invisible sm:visible"></span>
           </div>
         </a>
-          
         </h2>
     </section>
-
-
   </main>
 
-  
-  <footer class="w-[90%] max-w-[1200px] mx-auto space-y-10 py-10 border-t "/>
-  <h2 class="text-3xl font-semibold">Raja Zubair</h2> 
-  <div class="flex flex-col-reverse sm:flex-row justify-between gap-3">
-    <p>
-      &copy; Created with &lt;/&gt; by Zubair. 
-    </p>
-    <div class="flex gap-3 sm:gap-6 text-lg sm:text-2xl">
-      <a href="https://www.linkedin.com/in/raja-zubair-664066294/" class="text-[#0077b5] hover:shadow-lg shadow-current">
-        <i class="fab fa-linkedin-in"></i>
-      </a>
-      <a href="https://www.instagram.com/raja_zubair_786?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" class="bg-gradient-to-br from-[#f9ce34] via-[#ee2a7b] to-[#6228d7] bg-clip-text text-transparent hover:shadow-lg shadow-current">
-        <i class="fab fa-instagram"></i>
-      </a>
-      <a href="https://github.com/RajaZubair573" target="_blank" class="shadow-zinc-900 hover:shadow-lg">
-        <i class="fab fa-github"></i>
-      </a>
-      </i>
-  </div>
+  <footer class="w-[90%] max-w-[1200px] mx-auto space-y-10 py-10 border-t ">
+    <h2 class="text-3xl font-semibold">Raja Zubair</h2> 
+    <div class="flex flex-col-reverse sm:flex-row justify-between gap-3">
+      <p>&copy; Created with &lt;/&gt; by Zubair.</p>
+      <div class="flex gap-3 sm:gap-6 text-lg sm:text-2xl">
+        <a href="https://www.linkedin.com/in/raja-zubair-664066294/" class="text-[#0077b5] hover:shadow-lg shadow-current">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://www.instagram.com/raja_zubair_786?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" class="bg-gradient-to-br from-[#f9ce34] via-[#ee2a7b] to-[#6228d7] bg-clip-text text-transparent hover:shadow-lg shadow-current">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://github.com/RajaZubair573" target="_blank" class="shadow-zinc-900 hover:shadow-lg">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </div>
   </footer>
 
+  <!-- Three.js script to add a 3D background -->
+ 
+ 
 </body>
 
 </html>
