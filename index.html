@@ -12,9 +12,6 @@
   <title>Raja Zubair | Portfolio</title>
 
   <meta name="description" content="Hi, I'm Raja Zubair, a passionate web designer and frontend developer from Pakistan. I'm a tech-enthusiast and cricket-lover.">
-
-  <!-- Three.js library -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 </head>
 
 <body class="bg-[#161513] font-mono text-gray-200">
@@ -30,7 +27,7 @@
         <li class="hover:text-white  p-2 rounded-lg transition-all duration-200"><a href="#">About</a></li>
         <li class="hover:text-white  p-2 rounded-lg transition-all duration-200"><a href="#projects">Recent Work</a></li>
       </ul>
-      <a href="./"
+      <a href="./Raja Zubair Resume.pdf" download
         class="py-2 px-6 shadow-[1px_3px_2px_#aaa] hover:translate-x-[1px] hover:translate-y-[3px] hover:shadow-none hover:rounded-sm hover:bg-gradient-to-r from-purple-400 via-pink-500 to-orange-400 transition-all duration-200 text-zinc-700 text-lg font-semibold font-mono hover:text-gray-200 bg-white"> <i class="fa fa-file-download mr-1"></i> Resumé</a>
     </nav>
   </header>
@@ -60,7 +57,7 @@
       </div>
     </section>
 
-    <section class="bg-[#1c1c22] py-12">
+    <section class="bg-[#1c1c22] py-12 overflow-hidden">
       <div class="w-[90%] max-w-[1200px] mx-auto">
         <div class="flex justify-between items-center">
           <h1 class="text-4xl lg:text-5xl font-semibold leading-tight text-balance">
@@ -75,7 +72,8 @@
         </div>
         <div class="w-full h-1 bg-gradient-to-r from-purple-600 to-red-700 rounded-lg mt-8"></div>
         <div
-          class="flex justify-between items-center py-6 px-4 bg-transparent hover:bg-gradient-to-r from-purple-600 to-red-700 transition-colors duration-200 group cursor-pointer  text-4xl lg:text-5xl ">
+          class="flex justify-between items-center py-6 px-4 bg-transparent hover:bg-gradient-to-r from-purple-600 to-red-700 transition-colors duration-200 group cursor-pointer  text-4xl lg:text-5xl relative"
+          onmousemove="moveOverlay(event, 'overlay1')" onmouseleave="hideOverlay('overlay1')">
           <div class="">
             <h2 class="font-semibold leading-tight">
               <span class="text-white">UI/UX <span
@@ -85,10 +83,17 @@
           <div class="">
             <i class="fa-solid fa-up-right-from-square text-4xl cursor-pointer"></i>
           </div>
+          <div id="overlay1" class="overlay p-2 w-64 rounded-lg text-sm absolute top-1/2 -translate-y-1/2 left-0 -rotate-12 bg-black transition-all duration-500 overflow-hidden opacity-0 pointer-events-none">
+            <video src="./public/projects/Donut Web Prototype/Page 1 - Drag Prototyping For Donuts - Figma 2024-08-23 15-46-33.mp4" muted autoplay loop></video>
+            <p class="pt-2 text-gray-300">
+              <span class="font-bold">Delectable Donut Delights</span> - A Visual Journey of Flavors and Fun
+            </p>
+          </div>
         </div>
         <div class="w-full h-1 bg-gradient-to-r from-purple-600 to-red-700 rounded-lg"></div>
         <div
-          class="flex justify-between items-center py-6 px-4 bg-transparent hover:bg-gradient-to-r from-purple-600 to-red-700 transition-colors duration-200 group cursor-pointer text-4xl lg:text-5xl">
+          class="flex justify-between items-center py-6 px-4 bg-transparent hover:bg-gradient-to-r from-purple-600 to-red-700 transition-colors duration-200 group cursor-pointer text-4xl lg:text-5xl relative"
+          onmousemove="moveOverlay(event, 'overlay2')" onmouseleave="hideOverlay('overlay2')">
           <div class="">
             <h2 class="font-semibold leading-tight">
               <span class="text-white">Graphic <span
@@ -98,10 +103,17 @@
           <div class="">
             <i class="fa-solid fa-up-right-from-square text-4xl cursor-pointer"></i>
           </div>
+          <div id="overlay2" class="overlay p-2 w-64 rounded-lg text-sm absolute top-1/2 -translate-y-1/2 left-0 -rotate-12 bg-black transition-all duration-500 overflow-hidden opacity-0 pointer-events-none">
+            <img src="./public/projects/Console Web Design.jpg" alt="Graphic Design" class="w-full h-32 object-cover mb-2 rounded">
+            <p class="text-white">
+              <span class="font-bold">Console controller</span> - Reimagining the Gaming Controller
+            </p>
+          </div>
         </div>
         <div class="w-full h-1 bg-gradient-to-r from-purple-600 to-red-700 rounded-lg"></div>
         <div
-          class="flex justify-between items-center py-6 px-4 bg-transparent hover:bg-gradient-to-r from-purple-600 to-red-700 transition-colors duration-200 group cursor-pointer text-4xl lg:text-5xl">
+          class="flex justify-between items-center py-6 px-4 bg-transparent hover:bg-gradient-to-r from-purple-600 to-red-700 transition-colors duration-200 group cursor-pointer text-4xl lg:text-5xl relative"
+          onmousemove="moveOverlay(event, 'overlay3')" onmouseleave="hideOverlay('overlay3')">
           <div class="">
             <h2 class="font-semibold leading-tight">
               <span class="text-white">Web <span
@@ -110,6 +122,12 @@
           </div>
           <div class="">
             <i class="fa-solid fa-up-right-from-square text-4xl cursor-pointer"></i>
+          </div>
+          <div id="overlay3" class="overlay p-2 w-64 rounded-lg text-sm absolute top-1/2 -translate-y-1/2 left-0 -rotate-12 bg-black transition-all duration-500 overflow-hidden opacity-0 pointer-events-none">
+            <video src="./public/projects/Pizza Web Prototype/Page 1 - Pizza Hut Prototyping - Figma 2024-08-19 19-20-14.mp4" muted autoplay loop></video>
+            <p class="text-white">
+              <span class="font-bold">Pizza Hut Prototype</span> - A Modern Web Experience for Ordering Pizza
+            </p>
           </div>
         </div>
         <div class="w-full h-1 bg-gradient-to-r from-purple-600 to-red-700 rounded-lg"></div>
@@ -122,45 +140,11 @@
             class="bg-gradient-to-r from-purple-400 via-pink-500 to-orange-400 bg-clip-text text-transparent ">Projects</span>
         </h2>
       </div>
-      <div class="flex flex-wrap justify-center lg:justify-evenly *:w-full *:md:size-64 gap-10">
-        <div class="rounded-xl bg-[#1c1c22] overflow-hidden">
-          <div class="bg-gray-300">
-            <img src="./public/Image/project1.jpeg" alt="" class="object-cover object-center w-full">
-          </div>
-          <div class=" py-5 px-3">
-            <h3 class="text-xl">Walr Website</h3>
-            <p class="text-sm text-gray-400">Landing Page</p>
-          </div>
-        </div>
-        <div class="rounded-xl bg-[#1c1c22] overflow-hidden">
-          <div class="bg-gray-300 ">
-            <img src="./public/Image/project2.jpg" alt="" class="object-cover object-center w-full">
-          </div>
-          <div class=" py-5 px-3">
-            <h3 class="text-xl">Free Lance Graphic Design</h3>
-            <p class="text-sm text-gray-400">Landing Page</p>
-          </div>
-        </div>
-        <div class="rounded-xl bg-[#1c1c22] overflow-hidden ">
-          <div class="bg-gray-300 ">
-            <img src="./public/Image/project3.jpg" alt="" class="object-cover object-center w-full">
-          </div>
-          <div class=" py-5 px-3">
-            <h3 class="text-xl">Work Website </h3>
-            <p class="text-sm text-gray-400">Landing Page</p>
-          </div>
-        </div>
-        <div class="rounded-xl bg-[#1c1c22] overflow-hidden">
-          <div class="bg-gray-300 ">
-            <img src="./public/Image/project4.jpg" alt="" class="object-cover object-center w-full">
-          </div>
-          <div class=" py-5 px-3 ">
-            <h3 class="text-xl">Good Form Design co.</h3>
-            <p class="text-sm text-gray-400">Landing Page</p>
-          </div>
-        </div>
+      <div id="projectContainer" class="flex flex-wrap justify-center lg:justify-evenly *:basis-80 *:grow gap-8">
+        <!-- Projects will be dynamically added here -->
       </div>
     </section>
+
 
     <section class="w-[90%] max-w-[1200px] mx-auto space-y-10 pt-20">
       <h2 class=" text-4xl lg:text-5xl font-semibold leading-tight">What I <span
@@ -252,8 +236,67 @@
     </div>
   </footer>
 
-  <!-- Three.js script to add a 3D background -->
- 
+  <script>
+    const projects = [
+    {
+      image: "./public/projects/Logitech G502 X.jpg",
+      title: "Logitech G502 X",
+      description: "Experience precision gaming with our advanced wireless mouse technology."
+    },
+    {
+      image: "./public/projects/Electric Bike design.jpg",
+      title: "VoltCycle Revolution",
+      description: "Eco-friendly transportation meets cutting-edge technology."
+    },
+    {
+      image: "./public/projects/CTA design.png",
+      title: "Nunito CTA",
+      description: "Eye-catching CTAs and seamless user flows."
+    }
+  ];
+
+  const projectContainer = document.getElementById('projectContainer');
+
+  projects.slice(0, 4).forEach(project => {
+    const projectElement = document.createElement('div');
+    projectElement.className = "rounded-xl bg-[#1c1c22] overflow-hidden";
+    projectElement.innerHTML = `
+      <div class="bg-gray-300">
+        <img src="${project.image}" alt="" class="object-cover object-center w-full aspect-video">
+      </div>
+      <div class="p-3">
+        <h3 class="text-lg lg:text-xl font-semibold">${project.title}</h3>
+        <p class="text-sm text-gray-400">${project.description}</p>
+      </div>
+    `;
+    projectContainer.appendChild(projectElement);
+  });
+
+
+function moveOverlay(event, overlayId) {
+  const overlay = document.getElementById(overlayId);
+  const rect = event.currentTarget.getBoundingClientRect();
+  const x = event.clientX - rect.left;
+  const y = event.clientY - rect.top;
+  
+  const maxX = rect.width - overlay.offsetWidth;
+  const maxY = rect.height - overlay.offsetHeight;
+  
+  const clampedX = Math.max(0, Math.min(x, maxX));
+  const clampedY = Math.max(0, Math.min(y, maxY));
+  
+  overlay.style.left = `${clampedX}px`;
+  overlay.style.top = `${clampedY}px`;
+  
+  overlay.style.opacity = '1';
+}
+
+function hideOverlay(overlayId) {
+  const overlay = document.getElementById(overlayId);
+  overlay.style.opacity = '0';
+}
+
+  </script>
  
 </body>
 
