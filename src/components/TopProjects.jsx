@@ -3,17 +3,17 @@ import React from 'react';
 function Projects() {
   const projects = [
     {
-      image: "./public/projects/Logitech G502 X.jpg",
+      image: "/projects/Logitech G502 X.jpg",
       title: "Logitech G502 X",
       description: "Experience precision gaming with our advanced wireless mouse technology."
     },
     {
-      image: "./public/projects/Electric Bike design.jpg",
+      image: "/projects/Electric Bike design.jpg",
       title: "VoltCycle Revolution",
       description: "Eco-friendly transportation meets cutting-edge technology."
     },
     {
-      image: "./public/projects/CTA design.png",
+      image: "/projects/CTA design.png",
       title: "Nunito CTA",
       description: "Eye-catching CTAs and seamless user flows."
     }

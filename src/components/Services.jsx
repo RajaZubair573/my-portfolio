@@ -24,7 +24,7 @@
               <i className="fa-solid fa-up-right-from-square text-4xl cursor-pointer"></i>
             </div>
             <div id="overlay1" className="overlay p-2 w-64 rounded-lg text-sm absolute top-1/2 -translate-y-1/2 left-0 -rotate-12 bg-black transition-all duration-500 overflow-hidden opacity-0 pointer-events-none">
-              <video src="./public/projects/Donut Web Prototype/Page 1 - Drag Prototyping For Donuts - Figma 2024-08-23 15-46-33.mp4" muted autoPlay loop></video>
+              <video src="/projects/Donut Web Prototype/Page 1 - Drag Prototyping For Donuts - Figma 2024-08-23 15-46-33.mp4" muted autoPlay loop></video>
               <p className="pt-2 text-gray-300">
                 <span className="font-bold">Delectable Donut Delights</span> - A Visual Journey of Flavors and Fun
               </p>
@@ -44,7 +44,7 @@
               <i className="fa-solid fa-up-right-from-square text-4xl cursor-pointer"></i>
             </div>
             <div id="overlay2" className="overlay p-2 w-64 rounded-lg text-sm absolute top-1/2 -translate-y-1/2 left-0 -rotate-12 bg-black transition-all duration-500 overflow-hidden opacity-0 pointer-events-none">
-              <img src="./public/projects/Console Web Design.jpg" alt="Graphic Design" className="w-full h-32 object-cover mb-2 rounded" />
+              <img src="/projects/Console Web Design.jpg" alt="Graphic Design" className="w-full h-32 object-cover mb-2 rounded" />
               <p className="text-white">
                 <span className="font-bold">Console controller</span> - Reimagining the Gaming Controller
               </p>
@@ -64,7 +64,7 @@
               <i className="fa-solid fa-up-right-from-square text-4xl cursor-pointer"></i>
             </div>
             <div id="overlay3" className="overlay p-2 w-64 rounded-lg text-sm absolute top-1/2 -translate-y-1/2 left-0 -rotate-12 bg-black transition-all duration-500 overflow-hidden opacity-0 pointer-events-none">
-              <video src="./public/projects/Pizza Web Prototype/Page 1 - Pizza Hut Prototyping - Figma 2024-08-19 19-20-14.mp4" muted autoPlay loop></video>
+              <video src="/projects/Pizza Web Prototype/Page 1 - Pizza Hut Prototyping - Figma 2024-08-19 19-20-14.mp4" muted autoPlay loop></video>
               <p className="text-white">
                 <span className="font-bold">Pizza Hut Prototype</span> - A Modern Web Experience for Ordering Pizza
               </p>
