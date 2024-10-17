@@ -35,7 +35,7 @@ function Header() {
     <header className="w-[90%] max-w-[1200px] mx-auto">
       <nav className="text-white flex justify-between items-center p-4">
         <NavLink to="/" className="z-50">
-          <img src="./public/svg's/icon.jpg" alt="" className="size-12 -rotate-6 shadow-black shadow-lg" />
+          <img src="/svg's/icon.jpg" alt="" className="size-12 -rotate-6 shadow-black shadow-lg" />
         </NavLink>
         <div className="md:hidden z-50">
           <button onClick={toggleMenu} className="text-white">

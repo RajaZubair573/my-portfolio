@@ -18,7 +18,7 @@ function Hero() {
         </div>
       </div>
       <div className="w-full md:w-1/2 flex justify-center items-center z-10">
-        <img src="./public/Image/raja.jpg" alt="" className="shadow-[#555] shadow-md rounded-sm w-2/3" />
+        <img src="/Image/raja.jpg" alt="" className="shadow-[#555] shadow-md rounded-sm w-2/3" />
       </div>
     </section>
   );
