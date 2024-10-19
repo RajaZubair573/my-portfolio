@@ -11,7 +11,7 @@ const AboutMe = () => {
           </p>
         </div>
         <div className="w-full md:w-1/2 flex justify-center">
-          <img
+          <img fetchPriority="high"
             src="/designer.png"
             alt="Designer at work"
             className="rounded-xl shadow-lg w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg hover:scale-105 transition-transform duration-300"

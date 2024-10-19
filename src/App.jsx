@@ -1,3 +1,4 @@
+import React, { lazy, Suspense } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import Services from './components/Services';
@@ -5,11 +6,16 @@ import Project from './components/TopProjects';
 import Skills from './components/Skills';
 import CallToAction from './components/CallToAction';
 import Footer from './components/Footer';
-import Contact from './components/ContactSection';
 import Hero from './components/Hero';
-import Projects from './components/Projects';
-import About from './components/About';
 import { Toaster } from 'react-hot-toast';
+
+import ProjectsSkeleton from './components/skeletons/ProjectsSkeleton';
+import ContactSectionSkeleton from './components/skeletons/ContactSectionSkeleton';
+import AboutSkeleton from './components/skeletons/AboutSkeleton';
+
+const Projects = lazy(() => import('./components/Projects'));
+const Contact = lazy(() => import('./components/ContactSection'));
+const About = lazy(() => import('./components/About'));
 
 function App() {
   return (
@@ -27,9 +33,21 @@ function App() {
                 <CallToAction />
               </>
             } />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/about" element={<About />} />
+            <Route path="/projects" element={
+              <Suspense fallback={<ProjectsSkeleton />}>
+                <Projects />
+              </Suspense>
+            } />
+            <Route path="/contact" element={
+              <Suspense fallback={<ContactSectionSkeleton />}>
+                <Contact />
+              </Suspense>
+            } />
+            <Route path="/about" element={
+              <Suspense fallback={<AboutSkeleton />}>
+                <About />
+              </Suspense>
+            } />
           </Routes>
         </main>
         <Footer />
@@ -70,9 +88,6 @@ function App() {
               },
             }}
           />
-
     </Router>
   );
-}
-
-export default App;
+}export default App;
