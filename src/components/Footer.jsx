@@ -1,3 +1,4 @@
+import { LuGithub, LuInstagram,LuLinkedin } from "react-icons/lu";
 
 function Footer() {
   return (
@@ -6,14 +7,23 @@ function Footer() {
       <div className="flex flex-col-reverse sm:flex-row justify-between gap-3">
         <p>© Created with &lt;/&gt; by Zubair.</p>
         <div className="flex gap-3 sm:gap-6 text-lg sm:text-2xl">
-          <a href="https://www.linkedin.com/in/raja-zubair-664066294/" className="text-[#0077b5] hover:shadow-lg shadow-current">
-            <i className="fab fa-linkedin-in"></i>
+          <a
+            href="https://www.linkedin.com/in/raja-zubair-664066294/"
+            target="_blank"
+          >
+            <LuLinkedin className="text-[#0077b5] hover:scale-110 transition-transform duration-300 hover:drop-shadow-[0_0_8px_#0077b5]" />
           </a>
-          <a href="https://www.instagram.com/raja_zubair_786?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" className="bg-gradient-to-br from-[#f9ce34] via-[#ee2a7b] to-[#6228d7] bg-clip-text text-transparent hover:shadow-lg shadow-current">
-            <i className="fab fa-instagram"></i>
+          <a
+            href="https://www.instagram.com/raja_zubair_786?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+            target="_blank"
+          >
+            <LuInstagram className="text-[#ee2a7b] hover:scale-110 transition-transform duration-300 hover:drop-shadow-[0_0_8px_#ee2a7b]" />
           </a>
-          <a href="https://github.com/RajaZubair573" target="_blank" className="shadow-zinc-900 hover:shadow-lg">
-            <i className="fab fa-github"></i>
+          <a
+            href="https://github.com/RajaZubair573"
+            target="_blank"
+          >
+            <LuGithub className="hover:scale-110 transition-transform duration-300 hover:drop-shadow-[0_0_8px_#4a5568]" />
           </a>
         </div>
       </div>

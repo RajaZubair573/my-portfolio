@@ -1,4 +1,4 @@
-import React from 'react';
+import { Link } from "react-router-dom";
 
 function Hero() {
   return (
@@ -13,8 +13,8 @@ function Hero() {
         </h1>
         <p className="">I create visually stunning and user-friendly designs that enhance brand identity and user engagement.</p>
         <div className="flex flex-wrap gap-5">
-          <a href="#contact" className="border py-2 px-6 rounded-full hover:text-black hover:bg-white transition-all duration-500">Get in Touch</a>
-          <a href="#projects" className="border py-2 px-6 rounded-full hover:text-black hover:bg-white transition-all duration-500">View all work</a>
+          <Link to="/contact" className="border py-2 px-6 rounded-full hover:text-black hover:bg-white transition-all duration-500">Get in Touch</Link>
+          <Link to="/projects" className="border py-2 px-6 rounded-full hover:text-black hover:bg-white transition-all duration-500">View all work</Link>
         </div>
       </div>
       <div className="w-full md:w-1/2 flex justify-center items-center z-10">

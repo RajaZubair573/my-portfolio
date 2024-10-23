@@ -1,8 +1,8 @@
-import React, { lazy, Suspense } from 'react';
+import { lazy, Suspense } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import Services from './components/Services';
-import Project from './components/TopProjects';
+import TopProjects from './components/TopProjects';
 import Skills from './components/Skills';
 import CallToAction from './components/CallToAction';
 import Footer from './components/Footer';
@@ -28,7 +28,7 @@ function App() {
               <>
                 <Hero/>
                 <Services />
-                <Project />
+                <TopProjects />
                 <Skills />
                 <CallToAction />
               </>

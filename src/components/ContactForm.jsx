@@ -29,7 +29,9 @@ const ContactForm = () => {
   };
 
   const handleFormClick = () => {
-    toast(funnyMessages[Math.floor(Math.random() * funnyMessages.length)]);
+    toast(funnyMessages[Math.floor(Math.random() * funnyMessages.length)], {
+      id: 'form-disabled-toast'
+    });
   };
 
   const handleSubmit = (e) => {
