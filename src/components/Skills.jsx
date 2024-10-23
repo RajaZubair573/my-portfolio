@@ -1,16 +1,7 @@
-import React from "react";
+import { skills } from "../../constants";
 
 function Skills() {
-  const skills = [
-    { name: "Figma", icon: "/svg's/figma-svgrepo-com.svg" },
-    { name: "Photoshop", icon: "/svg's/photoshop-cc-logo-svgrepo-com.svg" },
-    { name: "Illustrator", icon: "/svg's/illustrator-svgrepo-com.svg" },
-    { name: "HTML", icon: "/svg's/html-5-svgrepo-com.svg" },
-    { name: "CSS", icon: "/svg's/css-3-svgrepo-com.svg" },
-    { name: "Tailwind CSS", icon: "/svg's/Tailwind_CSS_Logo.svg.png" },
-    { name: "Lightroom", icon: "/svg's/adobe-lightroom-svgrepo-com.svg" },
-    { name: "Canva", icon: "/svg's/canva-icon.webp" },
-  ];
+
 
   return (
     <section className="w-[90%] max-w-[1200px] mx-auto space-y-10 pt-20">
@@ -24,7 +15,7 @@ function Skills() {
         {skills.map((skill, index) => (
           <div
             key={index}
-            className="bg-[#333] p-4 text-center rounded-lg space-y-4"
+            className="bg-[#333] basis-40 flex flex-col items-center p-4 text-center rounded-lg space-y-4"
           >
             <div>
               <img

@@ -10,23 +10,16 @@ function Header() {
   };
 
   useEffect(() => {
-    const handleClickOutside = (event) => {
-      if (menuRef.current && !menuRef.current.contains(event.target)) {
-        setIsOpen(false);
-      }
-    };
-
+    
     const handleResize = () => {
       if (window.innerWidth >= 768) {
         setIsOpen(false);
       }
     };
 
-    document.addEventListener('mousedown', handleClickOutside);
     window.addEventListener('resize', handleResize);
 
     return () => {
-      document.removeEventListener('mousedown', handleClickOutside);
       window.removeEventListener('resize', handleResize);
     };
   }, []);
@@ -34,7 +27,7 @@ function Header() {
   return (
     <header className="w-[90%] max-w-[1200px] mx-auto">
       <nav className="text-white flex justify-between items-center p-4">
-        <NavLink to="/" className="z-50">
+        <NavLink to="/" className="z-50" onClick={() => setIsOpen(false)}>
           <img src="/svg's/icon.jpg" alt="" className="size-12 -rotate-6 shadow-black shadow-lg" />
         </NavLink>
         <div className="md:hidden z-50">
@@ -62,12 +55,13 @@ function Header() {
             <NavLink to="/about" onClick={() => setIsOpen(false)} className={({ isActive }) => isActive ? "bg-gradient-to-r from-purple-400 via-pink-500 to-orange-400 text-transparent bg-clip-text font-bold" : ""}>About</NavLink>
           </li>
           <li className="hover:text-white p-2 rounded-lg transition-all duration-200">
-            <NavLink to="/projects" onClick={() => setIsOpen(false)} className={({ isActive }) => isActive ? "bg-gradient-to-r from-purple-400 via-pink-500 to-orange-400 text-transparent bg-clip-text font-bold" : ""}>Recent Work</NavLink>
+            <NavLink to="/projects" onClick={() => setIsOpen(false)} className={({ isActive }) => isActive ? "bg-gradient-to-r from-purple-400 via-pink-500 to-orange-400 text-transparent bg-clip-text font-bold" : ""}>Projects</NavLink>
           </li>
           <li className="p-2 rounded-lg transition-all duration-200">
             <a 
               href="./Raja Zubair Resume.pdf" 
               download
+              onClick={() => setIsOpen(false)}
               className="w-full py-2 px-6 shadow-[1px_3px_2px_#aaa] hover:translate-x-[1px] hover:translate-y-[3px] hover:shadow-none hover:rounded-sm hover:bg-gradient-to-r from-purple-400 via-pink-500 to-orange-400 transition-all duration-200 text-zinc-700 text-lg font-semibold font-mono hover:text-gray-200 bg-white text-center">
               <i className="fa fa-file-download mr-1"></i> Resumé
             </a>

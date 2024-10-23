@@ -1,4 +1,4 @@
-import React from 'react';
+import { Link } from "react-router-dom";
 
 function CallToAction() {
   return (
@@ -7,11 +7,11 @@ function CallToAction() {
         <h2 className="text-3xl lg:text-5xl font-mono font-semibold leading-tight text-center md:text-left">
           <a href="#">
             See the impact of good, conversion-oriented design on your business 
-            <div className="bg-gradient-to-r from-purple-400 via-pink-500 to-orange-400 text-balance bg-clip-text text-transparent mt-5 w-fit mx-auto md:mx-0">
-              Let's Work Together
+            <Link to="/contact" className="block bg-gradient-to-r from-purple-400 via-pink-500 to-orange-400 text-balance bg-clip-text text-transparent mt-5 w-fit mx-auto md:mx-0">
+              Let&apos;s Work Together
               <i className="fa-solid fa-up-right-from-square text-4xl cursor-pointer"></i>
               <span className="h-1 mt-[8px] w-full block bg-gradient-to-r from-purple-400 via-pink-500 to-orange-400 invisible sm:visible"></span>
-            </div>
+            </Link>
           </a>
         </h2>
       </div>
