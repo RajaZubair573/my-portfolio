@@ -24,33 +24,34 @@ const AboutMe = () => {
         <ul className="space-y-5">
           <li className="group">
             <a href="mailto:rajazubair5626573@gmail.com" className="flex items-center justify-between bg-gray-700 bg-opacity-50 p-4 rounded-xl transition-all duration-300 hover:bg-opacity-75 hover:shadow-md">
-              <div className="flex items-center space-x-4">
-                <span className="text-purple-400 text-2xl sm:text-3xl transition-transform duration-300 group-hover:rotate-12">✉️</span>
-                <span className="text-base sm:text-lg text-gray-300 group-hover:text-purple-400 transition-colors duration-300">rajazubair5626573@gmail.com</span>
+              <div className="flex items-center space-x-4 flex-1 min-w-0">
+                <span className="text-purple-400 text-2xl sm:text-3xl transition-transform duration-300 group-hover:rotate-12 flex-shrink-0">✉️</span>
+                <span className="text-base sm:text-lg text-gray-300 group-hover:text-purple-400 transition-colors duration-300 truncate">rajazubair5626573@gmail.com</span>
               </div>
-              <span className="text-gray-500 group-hover:text-purple-400 transition-colors duration-300 text-3xl">→</span>
+              <span className="text-gray-500 group-hover:text-purple-400 transition-colors duration-300 text-3xl flex-shrink-0">→</span>
             </a>
           </li>
           <li className="group">
             <a href="tel:+923045626573" className="flex items-center justify-between bg-gray-700 bg-opacity-50 p-4 rounded-xl transition-all duration-300 hover:bg-opacity-75 hover:shadow-md">
-              <div className="flex items-center space-x-4">
-                <span className="text-green-400 text-2xl sm:text-3xl transition-transform duration-300 group-hover:rotate-12">📞</span>
-                <span className="text-base sm:text-lg text-gray-300 group-hover:text-green-400 transition-colors duration-300">+92 304 5626573</span>
+              <div className="flex items-center space-x-4 flex-1 min-w-0">
+                <span className="text-green-400 text-2xl sm:text-3xl transition-transform duration-300 group-hover:rotate-12 flex-shrink-0">📞</span>
+                <span className="text-base sm:text-lg text-gray-300 group-hover:text-green-400 transition-colors duration-300 truncate">+92 304 5626573</span>
               </div>
-              <span className="text-gray-500 group-hover:text-green-400 transition-colors duration-300 text-3xl">→</span>
+              <span className="text-gray-500 group-hover:text-green-400 transition-colors duration-300 text-3xl flex-shrink-0">→</span>
             </a>
           </li>
           <li className="group">
             <div className="flex items-center justify-between bg-gray-700 bg-opacity-50 p-4 rounded-xl transition-all duration-300 hover:bg-opacity-75 hover:shadow-md">
-              <div className="flex items-center space-x-4">
-                <span className="text-pink-500 text-2xl sm:text-3xl transition-transform duration-300 group-hover:rotate-12">📍</span>
-                <span className="text-base sm:text-lg text-gray-300 group-hover:text-pink-500 transition-colors duration-300">Islamabad, Pakistan</span>
+              <div className="flex items-center space-x-4 flex-1 min-w-0">
+                <span className="text-pink-500 text-2xl sm:text-3xl transition-transform duration-300 group-hover:rotate-12 flex-shrink-0">📍</span>
+                <span className="text-base sm:text-lg text-gray-300 group-hover:text-pink-500 transition-colors duration-300 truncate">Islamabad, Pakistan</span>
               </div>
-              <span className="text-gray-500 group-hover:text-pink-500 transition-colors duration-300">●</span>
+              <span className="text-gray-500 group-hover:text-pink-500 transition-colors duration-300 flex-shrink-0">●</span>
             </div>
           </li>
-        </ul>
-      </div>
+        </ul>     
+        
+         </div>
     </div>
   );
 };
