@@ -59,10 +59,10 @@ function Header() {
           </li>
           <li className="p-2 rounded-lg transition-all duration-200">
             <a 
-              href="./Raja Zubair Resume.pdf" 
+              href="/Raja Zubair Resume.pdf" 
               download
               onClick={() => setIsOpen(false)}
-              className="w-full py-2 px-6 shadow-[1px_3px_2px_#aaa] hover:translate-x-[1px] hover:translate-y-[3px] hover:shadow-none hover:rounded-sm hover:bg-gradient-to-r from-purple-400 via-pink-500 to-orange-400 transition-all duration-200 text-zinc-700 text-lg font-semibold font-mono hover:text-gray-200 bg-white text-center">
+              className="w-full py-2  px-6 shadow-[1px_3px_2px_#aaa] hover:translate-x-[1px] hover:translate-y-[3px] hover:shadow-none hover:rounded-sm hover:bg-gradient-to-r from-purple-400 via-pink-500 to-orange-400 transition-all duration-200 text-zinc-700 text-lg font-semibold font-mono hover:text-gray-200 bg-white text-center">
               <i className="fa fa-file-download mr-1"></i> Resumé
             </a>
           </li>

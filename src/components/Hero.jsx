@@ -8,7 +8,7 @@ function Hero() {
         <h1 className="text-4xl xl:text-5xl font-semibold leading-tight text-balance">
           <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-orange-400 bg-clip-text text-transparent">Hello, I am Zubair</span>
           <div className="">
-            A web designer from <span className="block bg-gradient-to-r from-purple-400 via-pink-500 to-orange-400 bg-clip-text text-transparent">Islamabad</span>
+            A UI/UX Designer from <span className="block bg-gradient-to-r from-purple-400 via-pink-500 to-orange-400 bg-clip-text text-transparent">Islamabad</span>
           </div>
         </h1>
         <p className="">I create visually stunning and user-friendly designs that enhance brand identity and user engagement.</p>

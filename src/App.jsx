@@ -20,7 +20,7 @@ const About = lazy(() => import('./components/About'));
 function App() {
   return (
     <Router>
-      <div className="bg-custom-dark font-mono text-gray-200 min-h-screen">
+      <div className="bg-custom-dark text-gray-200 min-h-screen">
         <Header />
         <main className="space-y-20 mt-10 px-4">
           <Routes>

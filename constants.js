@@ -1,5 +1,19 @@
 export const projects = [
   {
+    id: 11,
+    name: "FrostyBite",
+    imagePath: "/projects/FrostyBite.png",
+    desc: " A cool and colorful ice cream web design that delivers a sweet, seamless user experience.",
+    link: "https://www.figma.com/design/p9vyT1CgVfhZ22Mdd5HQ1A/Icecream-Design?node-id=2-2&t=j3Jx8Hnd8oIwpdiN-1"
+  },
+  {
+    id: 12,
+    name: "Reclaim",
+    imagePath: "/projects/Reclaim.png",
+    desc: "A sleek and reliable app design focused on effortlessly recovering lost files with speed and security.",
+    link: "#" // TODO: Add project link
+  },
+  {
     id: 1,
     name: "Console Web Design",
     imagePath: "/projects/Console Web Design.jpg",
@@ -73,11 +87,11 @@ export const projects = [
 ];
 
 export const topProjects = [
-  {
-    image: "/projects/Logitech G502 X.jpg",
-    title: "Logitech G502 X",
-    description: "Experience precision gaming with our advanced wireless mouse technology.",
-    link: "https://www.figma.com/design/JVB23Jntt6AY65RD3Dbx6T/Logitech-G502-X?t=nhFsB4Fz2qCUHGkO-1https://www.behance.net/gallery/180633095/Logitech-G502-X"
+   {
+    title: "Reclaim - Complete App design",
+    image: "/projects/Reclaim.png",
+    description: "A sleek and reliable app design focused on effortlessly recovering lost files with speed and security.",
+    link: "#" // TODO: Add project link
   },
   {
     image: "/projects/Electric Bike design.jpg",
@@ -86,10 +100,10 @@ export const topProjects = [
     link: "https://www.figma.com/design/Hwq4eeW9GWmyWicoIw8eHt/Electric-Bike-design?t=nhFsB4Fz2qCUHGkO-1"
   },
   {
-    image: "/projects/CTA design.png",
-    title: "Nunito CTA",
-    description: "Eye-catching CTAs and seamless user flows.",
-    link: "https://www.figma.com/design/BO1ECcDOerx9O3lc1uQO2j/Design?t=nhFsB4Fz2qCUHGkO-1"
+    title: "FrostyBite",
+    description: " A cool and colorful ice cream web design that delivers a sweet, seamless user experience.",
+    image: "/projects/FrostyBite.png",
+    link: "https://www.figma.com/design/p9vyT1CgVfhZ22Mdd5HQ1A/Icecream-Design?node-id=2-2&t=j3Jx8Hnd8oIwpdiN-1"
   }
 ];
 
