@@ -4,8 +4,8 @@ function Projects() {
 
   return (
     <section className="w-[90%] max-w-[1200px] mx-auto space-y-8" id="projects">
-      <div className="text-4xl lg:text-5xl font-semibold leading-tight">
-        <h2>Look at my <br /> <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-orange-400 bg-clip-text text-transparent">Projects</span></h2>
+      <div className="text-3xl md:text-4xl lg:text-5xl font-semibold leading-tight">
+        <h2>Look at my <br className="hidden md:block" /> <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-orange-400 bg-clip-text text-transparent">Projects</span></h2>
       </div>
       <div className="flex flex-wrap justify-center lg:justify-evenly *:basis-80 *:grow gap-8">
         {topProjects.map((project, index) => (

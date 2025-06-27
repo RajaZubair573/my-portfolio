@@ -21,10 +21,10 @@ function Skills() {
               <img
                 src={skill.icon}
                 alt=""
-                className="size-24 object-contain object-center"
+                className="size-10 md:size-24 object-contain object-center"
               />
             </div>
-            <h2>{skill.name}</h2>
+            <p className="text-sm md:text-base">{skill.name}</p>
           </div>
         ))}
       </div>

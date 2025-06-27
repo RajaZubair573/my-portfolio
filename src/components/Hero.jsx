@@ -5,7 +5,7 @@ function Hero() {
     <section className="w-[90%] max-w-[1200px] mx-auto flex flex-col md:flex-row justify-between items-center gap-8 relative">
       <div id="particles-js" className="absolute inset-0 z-0"></div>
       <div className="leading-6 space-y-6 w-full md:w-1/2 z-10">
-        <h1 className="text-4xl xl:text-5xl font-semibold leading-tight text-balance">
+        <h1 className="text-3xl lg:text-4xl xl:text-5xl font-semibold leading-tight text-balance">
           <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-orange-400 bg-clip-text text-transparent">Hello, I am Zubair</span>
           <div className="">
             A UI/UX Designer from <span className="block bg-gradient-to-r from-purple-400 via-pink-500 to-orange-400 bg-clip-text text-transparent">Islamabad</span>

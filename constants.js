@@ -108,14 +108,14 @@ export const topProjects = [
 ];
 
 export const skills = [
-  { name: "Figma", icon: "/svg's/figma-svgrepo-com.svg" },
-  { name: "Photoshop", icon: "/svg's/photoshop-cc-logo-svgrepo-com.svg" },
-  { name: "Illustrator", icon: "/svg's/illustrator-svgrepo-com.svg" },
-  { name: "Lightroom", icon: "/svg's/adobe-lightroom-svgrepo-com.svg" },
-  { name: "Canva", icon: "/svg's/canva-icon.webp" },
-  { name: "HTML", icon: "/svg's/html-5-svgrepo-com.svg" },
-  { name: "CSS", icon: "/svg's/css-3-svgrepo-com.svg" },
-  { name: "Tailwind CSS", icon: "/svg's/Tailwind_CSS_Logo.svg.png" },
-  { name: "JavaScript", icon: "/svg's/javascript.svg" },
-  { name: "React", icon: "/svg's/react.svg" },
+  { name: "Figma", icon: "/svgs/figma-svgrepo-com.svg" },
+  {name: "Framer", icon: "svgs/framer.svg"},
+  {name: "Webflow", icon: "svgs/webflow.svg"},
+  { name: "Photoshop", icon: "/svgs/photoshop-cc-logo-svgrepo-com.svg" },
+  { name: "Illustrator", icon: "/svgs/illustrator-svgrepo-com.svg" },
+  { name: "Lightroom", icon: "/svgs/adobe-lightroom-svgrepo-com.svg" },
+  { name: "Canva", icon: "/svgs/canva-icon.webp" },
+  { name: "HTML", icon: "/svgs/html-5-svgrepo-com.svg" },
+  { name: "CSS", icon: "/svgs/css-3-svgrepo-com.svg" },
+  { name: "Tailwind CSS", icon: "/svgs/Tailwind_CSS_Logo.svg.png" }
 ];

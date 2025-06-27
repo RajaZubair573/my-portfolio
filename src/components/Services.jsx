@@ -3,10 +3,10 @@
       <section className="bg-[#1c1c22] py-12 overflow-hidden">
         <div className="w-[90%] max-w-[1200px] mx-auto">
           <div className="flex justify-between items-center">
-            <h1 className="text-4xl lg:text-5xl font-semibold leading-tight text-balance">
+            <h1 className="text-3xl md:text-4xl xl:text-5xl font-semibold leading-tight text-balance">
               <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-orange-400 bg-clip-text text-transparent">Design that solves problems,</span>
-              <div className="text-4xl lg:text-5xl">
-                One Product at a <span className="block bg-gradient-to-r from-purple-400 via-pink-500 to-orange-400 bg-clip-text text-transparent">Time</span>
+              <div>
+                One Product at a <span className="sm:block bg-gradient-to-r from-purple-400 via-pink-500 to-orange-400 bg-clip-text text-transparent">Time</span>
               </div>
             </h1>
           </div>
