@@ -1,5 +1,19 @@
 export const projects = [
   
+   {
+    id: 19,
+    name: "Cyberrey",
+    imagePath: "/projects/Cyberrey Mockup.png",
+    desc: "Cyberrey is a cybersecurity website built to showcase trust and enterprise-grade protection.",
+    link: "https://www.figma.com/design/zVgjqRKZdXfZZ5vREeBkqk/Cyberrey-New?node-id=0-1&t=OZsJfQbaAWpAAWyH-1"
+  },
+   {
+    id: 18,
+    name: "CWESD",
+    imagePath: "/projects/CWESD - Mockup.png",
+    desc: "CWESD is a modern, conversion-focused learning platform empowering women to learn, grow, and lead.",
+    link: "https://www.figma.com/design/9Nv6z5mVXXUn2KzwMK1d5V/CWESD?node-id=0-1&t=Bnl38CVdCQKy85JX-1"
+  },
   {
     id: 13,
     name: "Axion Lighting Collection",
@@ -7,12 +21,57 @@ export const projects = [
     desc: "Axion is a sleek eCommerce platform showcasing curated lighting collections with an elegant and user-friendly shopping experience.",
     link: "https://www.figma.com/design/uqVa8WTG7FIBpBvQoGPPto/Axion-Selective-Part?node-id=0-1&t=KSUe2Mjwk15kkrK4-1"
   },
+ 
+   {
+    id: 20,
+    name: "Prime Renovations",
+    imagePath: "/projects/Prime Renovations Mockup.png",
+    desc: "Prime Renovations is a premium home renovation website reflecting precision and craftsmanship.",
+    link: "https://www.figma.com/design/FeOzf3wjda23O4VP7gkblb/Redesign-Prime-Renovations?node-id=0-1&t=NUTmH5mg5fhqMcwf-1"
+  },
+   {
+    id: 23,
+    name: "FlowCubo",
+    imagePath: "/projects/Flow Cubo Site Design.png",
+    desc: "Flow Cubo is a Webflow agency website focused on high-performance design and conversions.",
+    link: "https://www.figma.com/design/jYn1GVKuJlp7Pqk7EpWU9l/FlowCubo-Design?node-id=55-298&t=L5WEHBMHZzA1Kjxg-1"
+  },
+ 
+  {
+    id: 15,
+    name: "Synctom",
+    imagePath: "/projects/Synctom.png",
+    desc: "Synctom is a sleek, responsive software house website designed for clear branding and seamless user experience.",
+    link: "https://www.figma.com/design/QhYhGveD5HWhzDzln55eVb/Synctom-Selective-Part?node-id=0-1&t=CXtAEPU7zQDepI7G-1"
+  },
    {
     id: 14,
     name: "HomeHeaven",
-    imagePath: "/projects/HomeHeaven-Mockup.png",
+    imagePath: "/projects/Real Estate Web design.png",
     desc: "Home Heaven is a user-friendly real estate platform that enables seamless buying and selling of homes.",
-    link: "https://home-heaven-one.vercel.app/"
+    link: "https://www.figma.com/design/BRMMZEEZcASi8nGFVcJo6o/Real-Estate-Website-Design?node-id=0-1&t=yXeX4UW0hJRqoarq-1"
+  },
+ 
+  {
+    id: 21,
+    name: "Ikonic Dev",
+    imagePath: "/projects/Ikonic Dev Web Design.png",
+    desc: "Ikonic Dev is a software house website designed to attract and convert top-tier clients.",
+    link: "https://www.figma.com/design/Mx1CXDgdzHok40g99y8ZTV/IKONIC-Landing-Page?node-id=62-2421&t=eige5ZkvQMzgsF26-1"
+  },
+  {
+    id: 22,
+    name: "Teams App",
+    imagePath: "/projects/Teams Project Mockup.png",
+    desc: "Team is a collaboration app designed for seamless chatting, teamwork, and remote productivity.",
+    link: "https://www.figma.com/design/mmDFlqhHlD1HpWOquoDN0X/Course-Client-Project?node-id=21-460&t=fOTXeUVQzy6VO14U-1"
+  },
+  {
+    id: 12,
+    name: "Reclaim",
+    imagePath: "/projects/Reclaim-2.png",
+    desc: "A sleek and reliable app design focused on effortlessly recovering lost files with speed and security.",
+    link: "#" // TODO: Add project link
   },
    {
     id: 16,
@@ -22,27 +81,13 @@ export const projects = [
     link: "https://www.figma.com/design/KhF5xGVXyiEHDe6Q9Kj1TU/LumiNova-Landing-Page?node-id=217-899&t=f9Emd43qonJpR2Ev-1"
   },
   {
-    id: 15,
-    name: "Synctom",
-    imagePath: "/projects/Synctom.png",
-    desc: "Synctom is a sleek, responsive software house website designed for clear branding and seamless user experience.",
-    link: "https://www.figma.com/design/QhYhGveD5HWhzDzln55eVb/Synctom-Selective-Part?node-id=0-1&t=CXtAEPU7zQDepI7G-1"
-  },
-   
-  {
     id: 11,
     name: "FrostyBite",
     imagePath: "/projects/FrostyBite.png",
     desc: " A cool and colorful ice cream web design that delivers a sweet, seamless user experience.",
     link: "https://www.figma.com/design/p9vyT1CgVfhZ22Mdd5HQ1A/Icecream-Design?node-id=2-2&t=j3Jx8Hnd8oIwpdiN-1"
   },
-  {
-    id: 12,
-    name: "Reclaim",
-    imagePath: "/projects/Reclaim-2.png",
-    desc: "A sleek and reliable app design focused on effortlessly recovering lost files with speed and security.",
-    link: "#" // TODO: Add project link
-  },
+  
   {
     id: 17,
     name: "NexusDash",
@@ -124,17 +169,17 @@ export const projects = [
 ];
 
 export const topProjects = [
-   {
-    title: "Axion Lighting Collection",
-    image: "/projects/Axion-Mockup.png",
-    description: "Axion is a sleek eCommerce platform showcasing curated lighting collections with an elegant and user-friendly shopping experience.",
-    link: "https://www.figma.com/design/uqVa8WTG7FIBpBvQoGPPto/Axion-Selective-Part?node-id=0-1&t=KSUe2Mjwk15kkrK4-1"
+    {
+    title: "Cyberrey",
+    image: "/projects/Cyberrey Mockup.png",
+    description: "Cyberrey is a cybersecurity website built to showcase trust and enterprise-grade protection.",
+    link: "https://www.figma.com/design/zVgjqRKZdXfZZ5vREeBkqk/Cyberrey-New?node-id=0-1&t=OZsJfQbaAWpAAWyH-1"
   },
   {
-    image: "/projects/Reclaim-2.png",
-    title: "Reclaim - Data Recovery App",
-    description: "A sleek and reliable app design focused on effortlessly recovering lost files with speed and security.",
-    link: "https://www.figma.com/design/Hwq4eeW9GWmyWicoIw8eHt/Electric-Bike-design?t=nhFsB4Fz2qCUHGkO-1"
+    title: "CWESD",
+    image: "/projects/CWESD - Mockup.png",
+    description: "CWESD is a modern, conversion-focused learning platform empowering women to learn, grow, and lead.",
+    link: "https://www.figma.com/design/9Nv6z5mVXXUn2KzwMK1d5V/CWESD?node-id=0-1&t=Bnl38CVdCQKy85JX-1"
   },
   {
     title: "Synctom",

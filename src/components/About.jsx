@@ -5,10 +5,10 @@ const AboutMe = () => {
         <div className="w-full md:w-1/2">
           <div className="text-base sm:text-lg md:text-xl leading-relaxed text-gray-300 space-y-4">
             <p>
-              I’m Zubair, a UI/UX Designer and Frontend Website Developer with 3+ years of design experience and over a year in development. I specialize in creating clean, modern, user-centered interfaces across websites, mobile apps, and dashboards.
+              I’m Raja Zubair, a UI/UX Designer and Webflow Developer with 3+ years of design experience and nearly a year in development. I specialize in crafting clean, modern, user-focused websites and digital products that balance aesthetics with performance.
             </p>
             <p>
-              I’m skilled in design systems, UX research, Tailwind CSS, React.js, and actively learning Next.js. I’ve designed complete products including a Data Recovery app, Axion e-commerce website, and the Synctom software house website. I also communicate directly with clients to present and justify design decisions.
+              I’ve worked with international clients on projects like Cyberrey and Prime Renovations, and with Synctom on products like Axion Lighting, CWESD, and more. I’ve also collaborated with Flow Cubo, designing in Figma and building in Webflow, while completing my Bachelor’s in Computer Science in June 2026.
             </p>
           </div>
         </div>
