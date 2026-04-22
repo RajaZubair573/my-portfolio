@@ -18,7 +18,7 @@ function Hero() {
         </div>
       </div>
       <div className="w-full md:w-1/2 flex justify-center items-center z-10">
-        <img fetchPriority='high' src="/Image/Zubair.jpeg" alt="" className="shadow-[#555] shadow-md rounded-sm w-2/3" />
+        <img fetchPriority='high' src="/Image/RajaZubair.png" alt="" className="shadow-[#555] shadow-md rounded-sm w-2/3" />
       </div>
     </section>
   );
